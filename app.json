@@ -5,9 +5,9 @@
   "addons": [ "heroku-postgresql", "herokuconnect" ],
 
   "env": {
-    "TEST_ENVIRONMENT": "",
-    "SALESFORCE_USERNAME": "",
-    "SALESFORCE_PASSWORD": "",
+    "TEST_ENVIRONMENT": "test",
+    "SALESFORCE_USERNAME": "test@salesforce.demo",
+    "SALESFORCE_PASSWORD": "test_parameter",
     "COMPANY_NAME": "Cirrus",
     "COMPANY_LOGO": "/files/cirrus-logo.png",
     "APPLICANT_NAME": "Jennifer Wu",
