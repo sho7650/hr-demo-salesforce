@@ -3,9 +3,11 @@
   "description": "A sample HR website that displays job requisitions managed in Salesforce.",
   "image": "heroku/java",
   "addons": [ "heroku-postgresql", "herokuconnect" ],
+
   "env": {
-    "SALESFORCE_USERNAME": "",
-    "SALESFORCE_PASSWORD": "",
+    "TEST_ENVIRONMENT": "test",
+    "SALESFORCE_USERNAME": "test@salesforce.demo",
+    "SALESFORCE_PASSWORD": "test_parameter",
     "COMPANY_NAME": "Cirrus",
     "COMPANY_LOGO": "/files/cirrus-logo.png",
     "APPLICANT_NAME": "Jennifer Wu",
